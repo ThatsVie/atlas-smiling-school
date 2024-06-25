@@ -1,0 +1,98 @@
+@import url("./holberton_school-icon/style.css");
+
+/* Variables */
+:root {
+    --font-family: 'Source Sans Pro', serif;
+    --color-white: #ffffff;
+    --color-primary: #C271FF;
+    --color-dark: #071629;
+    --color-light-primary: #d296ff;
+}
+
+/* General Styles */
+body {
+    font-family: var(--font-family) !important;
+}
+
+.bg-primary {
+    background-color: var(--color-primary);
+}
+
+.text-highlight {
+    color: var(--color-primary);
+}
+
+.btn {
+    background-color: var(--color-primary);
+    box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.50);
+}
+
+.btn:hover, .btn:focus {
+    opacity: 0.9;
+}
+
+.font-large {
+    font-size: 2.5rem;
+}
+
+/* Background Images */
+.bg-home {
+    background-image: url('./images/pic_1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    background-color: var(--color-dark);
+}
+
+.bg-pricing {
+    background-image: url('./images/pic_2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    background-color: var(--color-dark);
+}
+
+.bg-courses {
+    background-image: url('./images/pic_3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    background-color: var(--color-dark);
+}
+
+/* Burger Menu Icon */
+.burger-icon:before {
+    font-family: 'holberton_school-icon';
+    content: "\e911";
+    color: var(--color-white);
+    font-size: 2rem;
+}
+
+.nav-link:hover, .nav-link:focus {
+    color: var(--color-primary) !important;
+}
+
+.dropdown-item:hover {
+    color: var(--color-primary) !important;
+    background-color: var(--color-white);
+}
+
+::placeholder {
+    color: var(--color-white) !important;
+    opacity: .5 !important;
+}
+
+/* Responsive Adjustments */
+@media screen and (max-width: 575px) {
+    .bg-home {
+        background-position: center top;
+        background-size: 100vw;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .bg-home {
+        background-size: auto;
+    }
+}
+
