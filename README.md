@@ -2,19 +2,6 @@
 Implement a Design With Bootstrap
 
 
-### Technologies Used
-
-- **HTML5**: For structuring the content.
-- **CSS3**: For styling the webpage, including custom styles and Bootstrap integration.
-- **Bootstrap 4.4.1**: For responsive design and components like the navbar and carousel.
-- **Google Fonts**: To enhance the typography with fonts like Source Sans Pro and Coiny.
-
-### Setup Instructions
-
-1. Clone the repository to your local machine.
-2. Open the `homepage.html` file in your web browser to view the Pug Smile School Homepage.
-3. Ensure you have an internet connection to load external dependencies such as Bootstrap and Google Fonts.
-
 ## Header/Hero Section
 
 The header/hero section includes the following elements:
@@ -26,12 +13,25 @@ The header/hero section includes the following elements:
 ## Carousel of Quotes
 
 The carousel of quotes section highlights testimonials from various pugs. This section uses the Bootstrap Carousel component to display rotating quotes, accompanied by images of the pugs who provided the testimonials. Each slide includes:
+
 - **Pug Image**: A rounded-circle image of the pug providing the testimonial.
 - **Quote**: A blockquote with the pug's testimonial.
 - **Author Information**: The name and playful occupation of the pug.
 
+## Popular Videos
 
-### Notes
+The "Most Popular Tutorials" section showcases popular video tutorials using the Bootstrap Carousel component. This section adjusts the number of video cards displayed based on the screen size: 4 cards for desktop, 2 cards for tablets, and 1 card for mobile devices. Each video card includes:
 
-- The images used in the project are stored in the `images` and `puggies` directories.
-- Custom styles are defined in the `styles.css` file and are imported into the `homepage.html` file.
+- **Video Thumbnail**: An image representing the video.
+- **Video Title**: A bold title for the video.
+- **Video Description**: A short description of the video's content.
+- **Instructor Information**: An image and name of the pug instructor.
+- **Star Rating**: A visual representation of the video's rating.
+- **Duration**: The length of the video in minutes.
+
+## Free Membership Section
+
+The free membership section invites users to join the community and learn more about pugs. It includes:
+- **Section Heading**: A prominent heading that highlights the "Free Membership" offer.
+- **Membership Benefits**: Four columns, each featuring an icon and a benefit of the membership, such as "Happy Pugs," "Pug Tricks," "Pug Health," and "Pug Stories."
+- **Call-to-Action Button**: A "REGISTER FOR FREE" button to encourage users to sign up.

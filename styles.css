@@ -38,25 +38,19 @@ body {
 
 /* Background Images */
 .bg-home {
-    background: var(--color-cyprus) url('./images/pic_1.jpg') no-repeat center top / cover;
+    background: var(--color-cyprus) url('images/pic_1.jpg') no-repeat center top / cover;
 }
 
 
 .bg-pricing {
-    background-image: url('./images/pic_2.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center top;
-    background-color: var(--color-cyprus);
+    background: var(--color-cyprus) url('images/pic_2.jpg') no-repeat center top/cover;
 }
 
+
 .bg-courses {
-    background-image: url('./images/pic_3.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center top;
-    background-color: var(--color-cyprus);
+    background: var(--color-cyprus) url('images/pic_3.jpg') no-repeat center top/cover;
 }
+
 
 /* Burger Menu Icon */
 .burger-icon:before {
@@ -75,6 +69,11 @@ body {
     background-color: var(--color-white);
 }
 
+
+.control-arrow {
+    max-width: 30px;
+    max-height: 63px;
+}
 
 /* Responsive Adjustments */
 @media screen and (max-width: 575px) {
