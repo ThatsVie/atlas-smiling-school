@@ -5,8 +5,9 @@
     --font-family: 'Source Sans Pro', serif;
     --color-white: #FFFFFF;
     --color-purple: #C271FF;
-    --color-cyprus: #071629;
     --color-light-purple:#D296FF;
+    --color-cyprus: #071629;
+    
 }
 
 /* General Styles */
@@ -37,12 +38,9 @@ body {
 
 /* Background Images */
 .bg-home {
-    background-image: url('./images/pic_1.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center top;
-    background-color: var(--color-cyprus);
+    background: var(--color-cyprus) url('./images/pic_1.jpg') no-repeat center top / cover;
 }
+
 
 .bg-pricing {
     background-image: url('./images/pic_2.jpg');
