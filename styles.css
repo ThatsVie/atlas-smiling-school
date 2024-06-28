@@ -19,6 +19,10 @@ body {
     background-color: var(--color-purple);
 }
 
+.bg-cyprus {
+    background-color: var(--color-cyprus);
+}
+
 .text-highlight {
     color: var(--color-purple);
 }
@@ -34,6 +38,10 @@ body {
 
 .font-large {
     font-size: 2.5rem;
+}
+
+.opacity-text {
+    opacity: 50%;
 }
 
 /* Background Images */
@@ -92,3 +100,14 @@ body {
     }
 }
 
+
+/* FOOTER */
+.footer-row {
+    width: 90%;
+}
+.footer-logo {
+    margin-top: 2rem;
+}
+.footer-links {
+    margin-top: 2rem;
+}
