@@ -55,3 +55,11 @@ The "Latest Videos" section showcases the newest video tutorials featuring pugs.
   - **Cards**: Each video is represented by a card containing an image, title, description, and additional details like the instructor's name and video duration.
 - **Controls**: Carousel controls are included to enable users to navigate between the videos.
 
+## Footer Section
+
+The footer of the Pug Smile School website includes:
+
+- **Background**: The footer has a `bg-cyprus` background color with white text.
+- **Logo and Smiley Icon**: Displayed on the left side, or centered on smaller screens.
+- **Social Media Links**: Icons for Facebook, Twitter, and Instagram on the right side, or centered on smaller screens.
+- **Copyright Text**: Centered at the bottom with reduced opacity for subtlety.

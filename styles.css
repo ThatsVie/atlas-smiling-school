@@ -40,10 +40,6 @@ body {
     font-size: 2.5rem;
 }
 
-.opacity-text {
-    opacity: 50%;
-}
-
 /* Background Images */
 .bg-home {
     background: var(--color-cyprus) url('images/pic_1.jpg') no-repeat center top / cover;
