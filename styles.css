@@ -42,7 +42,8 @@ body {
 
 /* Background Images */
 .bg-home {
-    background: var(--color-cyprus) url('images/pic_1.jpg') no-repeat center top / cover;
+    background: var(--color-cyprus) url('puggies/puggies_1.png') no-repeat center top / cover;
+  
 }
 
 
