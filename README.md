@@ -3,11 +3,15 @@ Implement a Design With Bootstrap
 
 ## Homepage
 
-### Header/Hero Section
+### Header Section
 
-The header/hero section includes the following elements:
+The header section includes the following elements:
 - **Logo Section**: Displays the Smileschool logo along with a smiley face icon.
 - **Navigation Bar**: Contains links to different sections of the site, including "Courses," "Pricing," and "Love."
+
+### Hero Section
+
+The hero section includes:
 - **Hero Content**: Features a prominent heading "Get Puggy" and emphasizes words like "STUMPY," "BARK," and "LOYAL" to describe the playful nature of pugs. A call-to-action button "REGISTER FOR FREE" is also included.
 - **Pro Pugs Section**: Showcases notable pugs with their achievements and titles.
 

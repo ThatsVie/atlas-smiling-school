@@ -42,10 +42,9 @@ body {
 
 /* Background Images */
 .bg-home {
-    background: var(--color-cyprus) url('puggies/puggies_1.png') no-repeat center top / cover;
+    background: var(--color-cyprus) url('images/pic_1.jpg') no-repeat center top / cover;
   
 }
-
 
 .bg-pricing {
     background: var(--color-cyprus) url('images/pic_2.jpg') no-repeat center top/cover;
@@ -54,6 +53,10 @@ body {
 
 .bg-courses {
     background: var(--color-cyprus) url('images/pic_3.jpg') no-repeat center top/cover;
+}
+
+.bg-love {
+    background: var(--color-cyprus) url('puggies/puggies_1.png') no-repeat center top/cover;
 }
 
 
@@ -98,13 +101,12 @@ body {
 }
 
 
-/* FOOTER */
-.footer-row {
-    width: 90%;
+.dontCryText {
+    font-family: 'Coiny', sans-serif !important;
 }
-.footer-logo {
-    margin-top: 2rem;
+
+
+.bg-lightpurple {
+    var(--color-light-purple);
 }
-.footer-links {
-    margin-top: 2rem;
-}
+
