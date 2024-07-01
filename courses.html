@@ -52,49 +52,54 @@
   </header>
 
   <main>
-    <!-- SEARCH FILTERS -->
-<section>
-    <div class="container-fluid bg-purple text-white">
-      <div class="row w-100 w-sm-75 mx-auto">
-        <div class="col-12 col-md-4 pb-4 pb-sm-0">
-          <p class="font-weight-bold text-left mb-0 mt-3 text-white" style="font-size: 12px;">KEYWORDS</p>
-          <form class="form-inline my-2 my-lg-0">
-            <div class="input-group w-100">
-              <div class="input-group-prepend">
-                <span class="input-group-text bg-lightpurple border-0">
-                  <img src="images/icon_search.png" alt="search icon" style="width: 20px;">
-                </span>
+    <!-- Search Filters -->
+    <section>
+      <div class="container-fluid bg-purple text-white">
+        <div class="row w-100 w-sm-75 mx-auto">
+
+          <!-- Search Bar Section -->
+          <div class="col-12 col-md-4 pb-4 pb-sm-0">
+            <p class="font-weight-bold text-left mb-0 mt-3 text-white" style="font-size: 12px;">KEYWORDS</p>
+            <form class="form-inline my-2 my-lg-0">
+              <div class="input-group w-100">
+                <!-- Search Icon -->
+                <div class="input-group-prepend">
+                  <span class="input-group-text bg-lightpurple border-0">
+                    <img src="images/icon_search.png" alt="search icon" style="width: 20px;">
+                  </span>
+                </div>
+                <!-- Search Input -->
+                <input class="form-control white-text rounded-0 bg-lightpurple border-0" style="font-size: 23px; font-weight: 300;" type="search" placeholder="Search by keywords" aria-label="Search">
               </div>
-              <input class="form-control white-text rounded-0 bg-lightpurple border-0" style="font-size: 23px; font-weight: 300;" type="search" placeholder="Search by keywords" aria-label="Search">
-            </div>
-          </form>
-        </div>
-        <div class="col-12 col-sm-6 col-md-4 pb-4">
-          <p class="font-weight-bold text-left mb-0 mt-3 text-white" style="font-size: 12px;">TOPIC</p>
-          <div class="select-wrapper">
-            <select class="form-control bg-lightpurple white-text rounded-0" style="font-size: 23px; font-weight: 300;">
-              <option>Novice</option>
-              <option>Intermediate</option>
-              <option>Expert</option>
-            </select>
+            </form>
           </div>
-        </div>
-        <div class="col-12 col-sm-6 col-md-4 pb-4">
-          <p class="font-weight-bold text-left mb-0 mt-3 text-white" style="font-size: 12px;">SORT BY</p>
-          <div class="select-wrapper">
-            <select class="form-control bg-lightpurple white-text rounded-0" style="font-size: 23px; font-weight: 300;">
-              <option>Most Popular</option>
-              <option>Most Recent</option>
-              <option>Most Viewed</option>
-            </select>
+
+          <!-- Topic Dropdown Section -->
+          <div class="col-12 col-sm-6 col-md-4 pb-4">
+            <p class="font-weight-bold text-left mb-0 mt-3 text-white" style="font-size: 12px;">TOPIC</p>
+            <div class="select-wrapper">
+              <select class="form-control bg-lightpurple white-text rounded-0" style="font-size: 23px; font-weight: 300;">
+                <option>Novice</option>
+                <option>Intermediate</option>
+                <option>Expert</option>
+              </select>
+            </div>
+          </div>
+
+          <!-- Sort By Dropdown Section -->
+          <div class="col-12 col-sm-6 col-md-4 pb-4">
+            <p class="font-weight-bold text-left mb-0 mt-3 text-white" style="font-size: 12px;">SORT BY</p>
+            <div class="select-wrapper">
+              <select class="form-control bg-lightpurple white-text rounded-0" style="font-size: 23px; font-weight: 300;">
+                <option>Most Popular</option>
+                <option>Most Recent</option>
+                <option>Most Viewed</option>
+              </select>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-</section>
-
-  
-
+    </section>
 
 
     <section class="container-fluid bg-white">
@@ -105,108 +110,312 @@
         <div class="row">
           <!-- Video Cards -->
           <!-- Video 1 -->
-          <div class="card col-lg-3 col-md-4 col-sm-6 col-12 border-0">
-            <img class="card-img-top" src="puggies/pugnail_1.jpg" alt="A close-up of a happy older, fawn pug with a slightly crooked smile and big, dark eyes.">
-            <div class="card-body d-block">
-              <h1 class="card-title font-weight-bold" style="font-size: 16px;">Diagonal Smile</h1>
-              <p class="card-text text-secondary">Discover pug smiles and unique ways of their charming faces.</p>
-              <div class="row">
-                <img class="rounded-circle ml-3" src="puggies/pug_1.jpg" height="30px" width="30px" alt="Pugster Massey">
-                <img class="card-img-overlay mx-auto mb-auto" src="images/play.png" alt="play button" style="width: 35%; padding-top: 15%;">
-                <p class="ml-3 text-highlight">Pugster Massey</p>
-              </div>
-
-              <div class="row justify-content-between align-items-center px-4">
-                <div class="star-rating">
-                  <img src="images/star_on.png" alt="purple star">
-                  <img src="images/star_on.png" alt="purple star">
-                  <img src="images/star_on.png" alt="purple star">
-                  <img src="images/star_on.png" alt="purple star">
-                  <img src="images/star_off.png" alt="gray star">
+          <div class="col-lg-3 col-md-4 col-sm-6 col-12 mb-4">
+            <div class="card border-0">
+              <img class="card-img-top" src="puggies/pugnail_1.jpg" alt="A close-up of a happy older, fawn pug with a slightly crooked smile and big, dark eyes.">
+              <div class="card-body d-block">
+                <h1 class="card-title font-weight-bold" style="font-size: 16px;">Diagonal Smile</h1>
+                <p class="card-text text-secondary">Discover pug smiles and unique ways of their charming faces.</p>
+                <div class="row">
+                  <img class="rounded-circle ml-3" src="puggies/pug_1.jpg" height="30px" width="30px" alt="Pugster Massey">
+                  <img class="card-img-overlay mx-auto mb-auto" src="images/play.png" alt="play button" style="width: 35%; padding-top: 15%;">
+                  <p class="ml-3 text-highlight">Pugster Massey</p>
                 </div>
-
-                <p class="text-highlight ml-3 pt-3">8 min</p>
+                <div class="row justify-content-between align-items-center px-4">
+                  <div class="star-rating">
+                    <img src="images/star_on.png" alt="purple star">
+                    <img src="images/star_on.png" alt="purple star">
+                    <img src="images/star_on.png" alt="purple star">
+                    <img src="images/star_on.png" alt="purple star">
+                    <img src="images/star_off.png" alt="gray star">
+                  </div>
+                  <p class="text-highlight ml-3 pt-3">8 min</p>
+                </div>
               </div>
             </div>
           </div>
           <!-- Video 2 -->
-          <div class="card col-lg-3 col-md-4 col-12 border-0">
-            <img class="card-img-top" src="puggies/pugnail_2.jpg" alt="A black pug with a sad expression, lying down with its head on the floor.">
-            <div class="card-body d-block">
-              <h1 class="card-title font-weight-bold" style="font-size: 16px;">Sad Smile</h1>
-              <p class="card-text text-secondary">Find out why pugs are adorable even with their sad faces.</p>
-              <div class="row">
-                <img class="rounded-circle ml-3" src="puggies/pug_1.jpg" height="30px" width="30px" alt="Pugster Massey">
-                <img class="card-img-overlay mx-auto mb-auto" src="images/play.png" alt="play button" style="width: 35%; padding-top: 15%;">
-                <p class="ml-3 text-highlight">Pugster Massey</p>
-              </div>
-
-              <div class="row justify-content-between align-items-center px-4">
-                <div class="star-rating">
-                  <img src="images/star_on.png" alt="purple star">
-                  <img src="images/star_on.png" alt="purple star">
-                  <img src="images/star_on.png" alt="purple star">
-                  <img src="images/star_on.png" alt="purple star">
-                  <img src="images/star_off.png" alt="gray star">
+          <div class="col-lg-3 col-md-4 col-sm-6 col-12 mb-4">
+            <div class="card border-0">
+              <img class="card-img-top" src="puggies/pugnail_2.jpg" alt="A black pug with a sad expression, lying down with its head on the floor.">
+              <div class="card-body d-block">
+                <h1 class="card-title font-weight-bold" style="font-size: 16px;">Sad Smile</h1>
+                <p class="card-text text-secondary">Find out why pugs are adorable even with their sad faces.</p>
+                <div class="row">
+                  <img class="rounded-circle ml-3" src="puggies/pug_1.jpg" height="30px" width="30px" alt="Pugster Massey">
+                  <img class="card-img-overlay mx-auto mb-auto" src="images/play.png" alt="play button" style="width: 35%; padding-top: 15%;">
+                  <p class="ml-3 text-highlight">Pugster Massey</p>
                 </div>
-
-                <p class="text-highlight ml-3 pt-3">8 min</p>
+                <div class="row justify-content-between align-items-center px-4">
+                  <div class="star-rating">
+                    <img src="images/star_on.png" alt="purple star">
+                    <img src="images/star_on.png" alt="purple star">
+                    <img src="images/star_on.png" alt="purple star">
+                    <img src="images/star_on.png" alt="purple star">
+                    <img src="images/star_off.png" alt="gray star">
+                  </div>
+                  <p class="text-highlight ml-3 pt-3">8 min</p>
+                </div>
               </div>
             </div>
           </div>
           <!-- Video 3 -->
-          <div class="card col-lg-3 col-md-4 col-12 border-0">
-            <img class="card-img-top" src="puggies/pugnail_3.jpg" alt="A joyful fawn pug with a big smile and tongue sticking out, sitting on grass.">
-            <div class="card-body d-block">
-              <h1 class="card-title font-weight-bold" style="font-size: 16px;">Natural Smile</h1>
-              <p class="card-text text-secondary">Learn about the natural and effortless smiles of happy pugs.</p>
-              <div class="row">
-                <img class="rounded-circle ml-3" src="puggies/pug_1.jpg" height="30px" width="30px" alt="Pugster Massey">
-                <img class="card-img-overlay mx-auto mb-auto" src="images/play.png" alt="play button" style="width: 35%; padding-top: 15%;">
-                <p class="ml-3 text-highlight">Pugster Massey</p>
-              </div>
-
-              <div class="row justify-content-between align-items-center px-4">
-                <div class="star-rating">
-                  <img src="images/star_on.png" alt="purple star">
-                  <img src="images/star_on.png" alt="purple star">
-                  <img src="images/star_on.png" alt="purple star">
-                  <img src="images/star_on.png" alt="purple star">
-                  <img src="images/star_off.png" alt="gray star">
+          <div class="col-lg-3 col-md-4 col-sm-6 col-12 mb-4">
+            <div class="card border-0">
+              <img class="card-img-top" src="puggies/pugnail_3.jpg" alt="A joyful fawn pug with a big smile and tongue sticking out, sitting on grass.">
+              <div class="card-body d-block">
+                <h1 class="card-title font-weight-bold" style="font-size: 16px;">Natural Smile</h1>
+                <p class="card-text text-secondary">Learn about the natural and effortless smiles of happy pugs.</p>
+                <div class="row">
+                  <img class="rounded-circle ml-3" src="puggies/pug_1.jpg" height="30px" width="30px" alt="Pugster Massey">
+                  <img class="card-img-overlay mx-auto mb-auto" src="images/play.png" alt="play button" style="width: 35%; padding-top: 15%;">
+                  <p class="ml-3 text-highlight">Pugster Massey</p>
                 </div>
-
-                <p class="text-highlight ml-3 pt-3">8 min</p>
+                <div class="row justify-content-between align-items-center px-4">
+                  <div class="star-rating">
+                    <img src="images/star_on.png" alt="purple star">
+                    <img src="images/star_on.png" alt="purple star">
+                    <img src="images/star_on.png" alt="purple star">
+                    <img src="images/star_on.png" alt="purple star">
+                    <img src="images/star_off.png" alt="gray star">
+                  </div>
+                  <p class="text-highlight ml-3 pt-3">8 min</p>
+                </div>
               </div>
             </div>
           </div>
           <!-- Video 4 -->
-          <div class="card col-lg-3 col-md-4 col-12 border-0">
-            <img class="card-img-top" src="puggies/pugnail_4.jpg" alt="A black pug with a playful expression, lying down with its tongue out.">
-            <div class="card-body">
-              <h1 class="card-title font-weight-bold" style="font-size: 16px;">Happy Smile</h1>
-              <p class="card-text text-secondary">Unlock the secrets to the most joyful and happy smiles of pugs.</p>
-              <div class="row">
-                <img class="rounded-circle ml-3" src="puggies/pug_1.jpg" height="30px" width="30px" alt="Pugster Massey">
-                <img class="card-img-overlay mx-auto mb-auto" src="images/play.png" alt="play button" style="width: 35%; padding-top: 15%;">
-                <p class="ml-3 text-highlight">Pugster Massey</p>
-              </div>
-
-              <div class="row justify-content-between align-items-center px-4">
-                <div class="star-rating">
-                  <img src="images/star_on.png" alt="purple star">
-                  <img src="images/star_on.png" alt="purple star">
-                  <img src="images/star_on.png" alt="purple star">
-                  <img src="images/star_on.png" alt="purple star">
-                  <img src="images/star_off.png" alt="gray star">
+          <div class="col-lg-3 col-md-4 col-sm-6 col-12 mb-4">
+            <div class="card border-0">
+              <img class="card-img-top" src="puggies/pugnail_4.jpg" alt="A black pug with a playful expression, lying down with its tongue out.">
+              <div class="card-body">
+                <h1 class="card-title font-weight-bold" style="font-size: 16px;">Happy Smile</h1>
+                <p class="card-text text-secondary">Unlock the secrets to the most joyful and happy smiles of pugs.</p>
+                <div class="row">
+                  <img class="rounded-circle ml-3" src="puggies/pug_1.jpg" height="30px" width="30px" alt="Pugster Massey">
+                  <img class="card-img-overlay mx-auto mb-auto" src="images/play.png" alt="play button" style="width: 35%; padding-top: 15%;">
+                  <p class="ml-3 text-highlight">Pugster Massey</p>
                 </div>
-
-                <p class="text-highlight ml-3 pt-3">8 min</p>
+                <div class="row justify-content-between align-items-center px-4">
+                  <div class="star-rating">
+                    <img src="images/star_on.png" alt="purple star">
+                    <img src="images/star_on.png" alt="purple star">
+                    <img src="images/star_on.png" alt="purple star">
+                    <img src="images/star_on.png" alt="purple star">
+                    <img src="images/star_off.png" alt="gray star">
+                  </div>
+                  <p class="text-highlight ml-3 pt-3">8 min</p>
+                </div>
               </div>
             </div>
           </div>
 
+          <!-- Video 5 -->
+          <div class="col-lg-3 col-md-4 col-sm-6 col-12 mb-4">
+            <div class="card border-0">
+              <img class="card-img-top" src="puggies/pugnail_1.jpg" alt="A close-up of a happy older, fawn pug with a slightly crooked smile and big, dark eyes.">
+              <div class="card-body d-block">
+                <h1 class="card-title font-weight-bold" style="font-size: 16px;">Diagonal Smile</h1>
+                <p class="card-text text-secondary">Discover pug smiles and unique ways of their charming faces.</p>
+                <div class="row">
+                  <img class="rounded-circle ml-3" src="puggies/pug_1.jpg" height="30px" width="30px" alt="Pugster Massey">
+                  <img class="card-img-overlay mx-auto mb-auto" src="images/play.png" alt="play button" style="width: 35%; padding-top: 15%;">
+                  <p class="ml-3 text-highlight">Pugster Massey</p>
+                </div>
+                <div class="row justify-content-between align-items-center px-4">
+                  <div class="star-rating">
+                    <img src="images/star_on.png" alt="purple star">
+                    <img src="images/star_on.png" alt="purple star">
+                    <img src="images/star_on.png" alt="purple star">
+                    <img src="images/star_on.png" alt="purple star">
+                    <img src="images/star_off.png" alt="gray star">
+                  </div>
+                  <p class="text-highlight ml-3 pt-3">8 min</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Video 6 -->
+          <div class="col-lg-3 col-md-4 col-sm-6 col-12 mb-4">
+            <div class="card border-0">
+              <img class="card-img-top" src="puggies/pugnail_2.jpg" alt="A black pug with a sad expression, lying down with its head on the floor.">
+              <div class="card-body d-block">
+                <h1 class="card-title font-weight-bold" style="font-size: 16px;">Sad Smile</h1>
+                <p class="card-text text-secondary">Find out why pugs are adorable even with their sad faces.</p>
+                <div class="row">
+                  <img class="rounded-circle ml-3" src="puggies/pug_1.jpg" height="30px" width="30px" alt="Pugster Massey">
+                  <img class="card-img-overlay mx-auto mb-auto" src="images/play.png" alt="play button" style="width: 35%; padding-top: 15%;">
+                  <p class="ml-3 text-highlight">Pugster Massey</p>
+                </div>
+                <div class="row justify-content-between align-items-center px-4">
+                  <div class="star-rating">
+                    <img src="images/star_on.png" alt="purple star">
+                    <img src="images/star_on.png" alt="purple star">
+                    <img src="images/star_on.png" alt="purple star">
+                    <img src="images/star_on.png" alt="purple star">
+                    <img src="images/star_off.png" alt="gray star">
+                  </div>
+                  <p class="text-highlight ml-3 pt-3">8 min</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Video 7 -->
+          <div class="col-lg-3 col-md-4 col-sm-6 col-12 mb-4">
+            <div class="card border-0">
+              <img class="card-img-top" src="puggies/pugnail_3.jpg" alt="A joyful fawn pug with a big smile and tongue sticking out, sitting on grass.">
+              <div class="card-body d-block">
+                <h1 class="card-title font-weight-bold" style="font-size: 16px;">Natural Smile</h1>
+                <p class="card-text text-secondary">Learn about the natural and effortless smiles of happy pugs.</p>
+                <div class="row">
+                  <img class="rounded-circle ml-3" src="puggies/pug_1.jpg" height="30px" width="30px" alt="Pugster Massey">
+                  <img class="card-img-overlay mx-auto mb-auto" src="images/play.png" alt="play button" style="width: 35%; padding-top: 15%;">
+                  <p class="ml-3 text-highlight">Pugster Massey</p>
+                </div>
+                <div class="row justify-content-between align-items-center px-4">
+                  <div class="star-rating">
+                    <img src="images/star_on.png" alt="purple star">
+                    <img src="images/star_on.png" alt="purple star">
+                    <img src="images/star_on.png" alt="purple star">
+                    <img src="images/star_on.png" alt="purple star">
+                    <img src="images/star_off.png" alt="gray star">
+                  </div>
+                  <p class="text-highlight ml-3 pt-3">8 min</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Video 8 -->
+          <div class="col-lg-3 col-md-4 col-sm-6 col-12 mb-4">
+            <div class="card border-0">
+              <img class="card-img-top" src="puggies/pugnail_4.jpg" alt="A black pug with a playful expression, lying down with its tongue out.">
+              <div class="card-body">
+                <h1 class="card-title font-weight-bold" style="font-size: 16px;">Happy Smile</h1>
+                <p class="card-text text-secondary">Unlock the secrets to the most joyful and happy smiles of pugs.</p>
+                <div class="row">
+                  <img class="rounded-circle ml-3" src="puggies/pug_1.jpg" height="30px" width="30px" alt="Pugster Massey">
+                  <img class="card-img-overlay mx-auto mb-auto" src="images/play.png" alt="play button" style="width: 35%; padding-top: 15%;">
+                  <p class="ml-3 text-highlight">Pugster Massey</p>
+                </div>
+                <div class="row justify-content-between align-items-center px-4">
+                  <div class="star-rating">
+                    <img src="images/star_on.png" alt="purple star">
+                    <img src="images/star_on.png" alt="purple star">
+                    <img src="images/star_on.png" alt="purple star">
+                    <img src="images/star_on.png" alt="purple star">
+                    <img src="images/star_off.png" alt="gray star">
+                  </div>
+                  <p class="text-highlight ml-3 pt-3">8 min</p>
+                </div>
+              </div>
+            </div>
+          </div>
 
+          <!-- Video 9 -->
+          <div class="col-lg-3 col-md-4 col-sm-6 col-12 mb-4">
+            <div class="card border-0">
+              <img class="card-img-top" src="puggies/pugnail_1.jpg" alt="A close-up of a happy older, fawn pug with a slightly crooked smile and big, dark eyes.">
+              <div class="card-body d-block">
+                <h1 class="card-title font-weight-bold" style="font-size: 16px;">Diagonal Smile</h1>
+                <p class="card-text text-secondary">Discover pug smiles and unique ways of their charming faces.</p>
+                <div class="row">
+                  <img class="rounded-circle ml-3" src="puggies/pug_1.jpg" height="30px" width="30px" alt="Pugster Massey">
+                  <img class="card-img-overlay mx-auto mb-auto" src="images/play.png" alt="play button" style="width: 35%; padding-top: 15%;">
+                  <p class="ml-3 text-highlight">Pugster Massey</p>
+                </div>
+                <div class="row justify-content-between align-items-center px-4">
+                  <div class="star-rating">
+                    <img src="images/star_on.png" alt="purple star">
+                    <img src="images/star_on.png" alt="purple star">
+                    <img src="images/star_on.png" alt="purple star">
+                    <img src="images/star_on.png" alt="purple star">
+                    <img src="images/star_off.png" alt="gray star">
+                  </div>
+                  <p class="text-highlight ml-3 pt-3">8 min</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Video 10 -->
+          <div class="col-lg-3 col-md-4 col-sm-6 col-12 mb-4">
+            <div class="card border-0">
+              <img class="card-img-top" src="puggies/pugnail_2.jpg" alt="A black pug with a sad expression, lying down with its head on the floor.">
+              <div class="card-body d-block">
+                <h1 class="card-title font-weight-bold" style="font-size: 16px;">Sad Smile</h1>
+                <p class="card-text text-secondary">Find out why pugs are adorable even with their sad faces.</p>
+                <div class="row">
+                  <img class="rounded-circle ml-3" src="puggies/pug_1.jpg" height="30px" width="30px" alt="Pugster Massey">
+                  <img class="card-img-overlay mx-auto mb-auto" src="images/play.png" alt="play button" style="width: 35%; padding-top: 15%;">
+                  <p class="ml-3 text-highlight">Pugster Massey</p>
+                </div>
+                <div class="row justify-content-between align-items-center px-4">
+                  <div class="star-rating">
+                    <img src="images/star_on.png" alt="purple star">
+                    <img src="images/star_on.png" alt="purple star">
+                    <img src="images/star_on.png" alt="purple star">
+                    <img src="images/star_on.png" alt="purple star">
+                    <img src="images/star_off.png" alt="gray star">
+                  </div>
+                  <p class="text-highlight ml-3 pt-3">8 min</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Video 11 -->
+          <div class="col-lg-3 col-md-4 col-sm-6 col-12 mb-4">
+            <div class="card border-0">
+              <img class="card-img-top" src="puggies/pugnail_3.jpg" alt="A joyful fawn pug with a big smile and tongue sticking out, sitting on grass.">
+              <div class="card-body d-block">
+                <h1 class="card-title font-weight-bold" style="font-size: 16px;">Natural Smile</h1>
+                <p class="card-text text-secondary">Learn about the natural and effortless smiles of happy pugs.</p>
+                <div class="row">
+                  <img class="rounded-circle ml-3" src="puggies/pug_1.jpg" height="30px" width="30px" alt="Pugster Massey">
+                  <img class="card-img-overlay mx-auto mb-auto" src="images/play.png" alt="play button" style="width: 35%; padding-top: 15%;">
+                  <p class="ml-3 text-highlight">Pugster Massey</p>
+                </div>
+                <div class="row justify-content-between align-items-center px-4">
+                  <div class="star-rating">
+                    <img src="images/star_on.png" alt="purple star">
+                    <img src="images/star_on.png" alt="purple star">
+                    <img src="images/star_on.png" alt="purple star">
+                    <img src="images/star_on.png" alt="purple star">
+                    <img src="images/star_off.png" alt="gray star">
+                  </div>
+                  <p class="text-highlight ml-3 pt-3">8 min</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Video 12 -->
+          <div class="col-lg-3 col-md-4 col-sm-6 col-12 mb-4">
+            <div class="card border-0">
+              <img class="card-img-top" src="puggies/pugnail_4.jpg" alt="A black pug with a playful expression, lying down with its tongue out.">
+              <div class="card-body">
+                <h1 class="card-title font-weight-bold" style="font-size: 16px;">Happy Smile</h1>
+                <p class="card-text text-secondary">Unlock the secrets to the most joyful and happy smiles of pugs.</p>
+                <div class="row">
+                  <img class="rounded-circle ml-3" src="puggies/pug_1.jpg" height="30px" width="30px" alt="Pugster Massey">
+                  <img class="card-img-overlay mx-auto mb-auto" src="images/play.png" alt="play button" style="width: 35%; padding-top: 15%;">
+                  <p class="ml-3 text-highlight">Pugster Massey</p>
+                </div>
+                <div class="row justify-content-between align-items-center px-4">
+                  <div class="star-rating">
+                    <img src="images/star_on.png" alt="purple star">
+                    <img src="images/star_on.png" alt="purple star">
+                    <img src="images/star_on.png" alt="purple star">
+                    <img src="images/star_on.png" alt="purple star">
+                    <img src="images/star_off.png" alt="gray star">
+                  </div>
+                  <p class="text-highlight ml-3 pt-3">8 min</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
     </section>
+    
   </main>
   <!-- FOOTER -->
   <footer class="container-fluid bg-cyprus text-white pt-5 pb-4">
@@ -225,7 +434,6 @@
       <p class="footer-copyright small text-center mb-0" style="opacity: 0.3517; margin-top: 2rem;">© Pug Smile School 2020</p>
     </div>
   </footer>
-
 
 </body>
 
