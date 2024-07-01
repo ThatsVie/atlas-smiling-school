@@ -99,14 +99,62 @@ body {
         font-size: 5rem;
     }
 }
-
-
 .dontCryText {
     font-family: 'Coiny', sans-serif !important;
 }
 
-
 .bg-lightpurple {
-    var(--color-light-purple);
+    background-color: var(--color-light-purple);
 }
 
+::placeholder {
+    color: var(--color-white) !important;
+    opacity: .5 !important;
+}
+
+.form-control:hover {
+    background-color: var(--color-light-purple);
+}
+.form-control:active {
+    background-color: var(--color-light-purple) !important;
+}
+.form-control:focus {
+    background-color: var(--color-light-purple) !important;
+}
+
+.select-wrapper {
+    position: relative;
+}
+
+.select-wrapper select.form-control {
+    padding-right: 40px;
+    position: relative;
+}
+
+.select-wrapper::after {
+    content: '▼';
+    font-size: 16px;
+    color: var(--color-white);
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    pointer-events: none;
+    transform: translateY(-50%);
+}
+
+.select-wrapper select.form-control:hover {
+    cursor: pointer;
+}
+select.form-control option {
+    color: var(--color-cyprus);
+    background-color: var(--color-white);
+}
+
+select.form-control {
+    color: var(--color-white);
+    background-image: none; /* Remove default arrow */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    position: relative;
+  }
