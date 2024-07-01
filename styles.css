@@ -3,11 +3,11 @@
 /* Variables */
 :root {
     --font-family: 'Source Sans Pro', serif;
+    --font-family-secondary: 'Coiny', sans-serif;
     --color-white: #FFFFFF;
     --color-purple: #C271FF;
-    --color-light-purple:#D296FF;
+    --color-light-purple: #D296FF;
     --color-cyprus: #071629;
-    
 }
 
 /* General Styles */
@@ -23,12 +23,16 @@ body {
     background-color: var(--color-cyprus);
 }
 
+.bg-lightpurple {
+    background-color: var(--color-light-purple);
+}
+
 .text-highlight {
     color: var(--color-purple);
 }
 
 .text-cyprus {
-    color: var(--color-cyprus)
+    color: var(--color-cyprus);
 }
 
 .btn {
@@ -40,26 +44,22 @@ body {
     opacity: 0.9;
 }
 
-
 /* Background Images */
 .bg-home {
     background: var(--color-cyprus) url('images/pic_1.jpg') no-repeat center top / cover;
-  
 }
 
 .bg-pricing {
-    background: var(--color-cyprus) url('images/pic_2.jpg') no-repeat center top/cover;
+    background: var(--color-cyprus) url('images/pic_2.jpg') no-repeat center top / cover;
 }
 
-
 .bg-courses {
-    background: var(--color-cyprus) url('images/pic_3.jpg') no-repeat center top/cover;
+    background: var(--color-cyprus) url('images/pic_3.jpg') no-repeat center top / cover;
 }
 
 .bg-love {
-    background: var(--color-cyprus) url('puggies/puggies_1.png') no-repeat center top/cover;
+    background: var(--color-cyprus) url('puggies/puggies_1.png') no-repeat center top / cover;
 }
-
 
 /* Burger Menu Icon */
 .burger-icon:before {
@@ -69,16 +69,69 @@ body {
     font-size: 2rem;
 }
 
+/* Navigation Links */
 .nav-link:hover, .nav-link:focus {
     color: var(--color-purple) !important;
 }
 
+/* Dropdown */
 .dropdown-item:hover {
     color: var(--color-purple) !important;
     background-color: var(--color-white);
 }
 
+/* Form Control */
+.form-control:hover, .form-control:focus, .form-control:active {
+    background-color: var(--color-light-purple) !important;
+}
 
+/* Placeholder */
+::placeholder {
+    color: var(--color-white) !important;
+    opacity: .5 !important;
+}
+
+/* Select Wrapper */
+.select-wrapper {
+    position: relative;
+}
+
+.select-wrapper select.form-control {
+    padding-right: 40px;
+    position: relative;
+    color: var(--color-white);
+    background-image: none; /* Remove default arrow */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.select-wrapper::after {
+    content: '▼';
+    font-size: 16px;
+    color: var(--color-white);
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    pointer-events: none;
+    transform: translateY(-50%);
+}
+
+.select-wrapper select.form-control:hover {
+    cursor: pointer;
+}
+
+select.form-control option {
+    color: var(--color-cyprus);
+    background-color: var(--color-white);
+}
+
+/* Custom Text */
+.dontCryText {
+    font-family: var(--font-family-secondary) !important;
+}
+
+/* Control Arrow */
 .control-arrow {
     max-width: 30px;
     max-height: 63px;
@@ -96,66 +149,8 @@ body {
     .bg-home {
         background-size: auto;
     }
+
     .display-1 {
         font-size: 5rem;
     }
 }
-.dontCryText {
-    font-family: 'Coiny', sans-serif !important;
-}
-
-.bg-lightpurple {
-    background-color: var(--color-light-purple);
-}
-
-::placeholder {
-    color: var(--color-white) !important;
-    opacity: .5 !important;
-}
-
-.form-control:hover {
-    background-color: var(--color-light-purple);
-}
-.form-control:active {
-    background-color: var(--color-light-purple) !important;
-}
-.form-control:focus {
-    background-color: var(--color-light-purple) !important;
-}
-
-.select-wrapper {
-    position: relative;
-}
-
-.select-wrapper select.form-control {
-    padding-right: 40px;
-    position: relative;
-}
-
-.select-wrapper::after {
-    content: '▼';
-    font-size: 16px;
-    color: var(--color-white);
-    position: absolute;
-    top: 50%;
-    right: 10px;
-    pointer-events: none;
-    transform: translateY(-50%);
-}
-
-.select-wrapper select.form-control:hover {
-    cursor: pointer;
-}
-select.form-control option {
-    color: var(--color-cyprus);
-    background-color: var(--color-white);
-}
-
-select.form-control {
-    color: var(--color-white);
-    background-image: none; /* Remove default arrow */
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    position: relative;
-  }
