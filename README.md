@@ -1,5 +1,10 @@
 # Pug Smile School
-Implement a Design With Bootstrap
+
+This project included three web pages implemented with Bootstrap. HTML/CSS/Accessibility/Responsive design/Bootstrap knowledge was applied. There was minimal instruction, and the implementation was left to individual creativity - the objective was simple: to have fully functional web pages that looked the same as the designer file. The pages were designed to showcase various pug-related content in an engaging and accessible manner. These pages were based on the following Figma design files, with creative freedom taken to incorporate pug-themed elements:
+
+- [Homepage Figma File](https://www.figma.com/design/hcxMqRWjdj06jHycRkbzOf/Homepage?node-id=0-1&t=Mq8XBvlJZG2WxGZi-0)
+- [Pricing Page Figma File](https://www.figma.com/design/QQmdkH49hKJuJ6244fBXzH/Pricing?node-id=0-1&t=ATtwuwpEqWUtGF9B-0)
+- [Courses Page Figma File](https://www.figma.com/design/zKRy0vMRBjwHaKBn1WnavS/Courses?node-id=0-1&t=n0UjYPupBYiuFTX3-0)
 
 ## Homepage
 
@@ -50,16 +55,8 @@ The free membership section invites users to join the community and learn more a
 
 ### Latest Videos
 
-The "Latest Videos" section showcases the newest video tutorials featuring pugs. This section is designed to provide users with the most recent content available on the platform.
+The "Latest Videos" section showcases the newest video tutorials featuring pugs. This section is designed to provide users with the most recent content available on the platform. It is exactly the same as the "Most Popular Tutorials" section.
 
-#### Implementation Details
-
-- **Structure**: The section is structured similarly to the "Most Popular Tutorials" section, ensuring consistency across the website.
-- **Heading**: The heading for this section is "Latest videos", with "Latest" highlighted to draw attention.
-- **Carousel**: The videos are displayed in a carousel format, allowing users to scroll through the latest tutorials.
-  - **Carousel ID**: The `id` for this carousel is `latestVideosCarousel` to ensure it operates independently of other carousels on the page.
-  - **Cards**: Each video is represented by a card containing an image, title, description, and additional details like the instructor's name and video duration.
-- **Controls**: Carousel controls are included to enable users to navigate between the videos.
 
 ### Footer Section
 
@@ -111,3 +108,34 @@ The footer is consistent with the homepage, including:
 - **Logo and Smiley Icon**: Displayed on the left side, or centered on smaller screens.
 - **Social Media Links**: Icons for Facebook, Twitter, and Instagram on the right side, or centered on smaller screens.
 - **Copyright Text**: Centered at the bottom with reduced opacity for subtlety.
+
+## Courses Page
+
+### Header/Hero Section
+
+The header/hero section of the Courses page includes:
+- **Logo and Navigation:** Displays the Smileschool logo along with navigation links to the 'Courses,' 'Pricing,' and 'Love' pages. On smaller screens, a burger menu is used for navigation.
+- **Inspirational Quote:** Features an inspirational quote "« Don't cry because it's over. Smile because it happened. »" displayed prominently in the center, using the 'Coiny' font for emphasis.
+
+### Search Filters
+
+The search filters section allows users to refine their video search based on keywords, topics, and sort options:
+- **Keywords:** Users can enter keywords into a search bar to filter videos. An icon next to the search bar enhances the visual cue for searching.
+- **Topic Dropdown:** A dropdown menu lets users select the level of expertise for the videos, with options for Novice, Intermediate, and Expert.
+- **Sort By Dropdown:** Users can sort videos by Most Popular, Most Recent, or Most Viewed, using another dropdown menu.
+
+### List of Results Section
+
+The list of results section displays video cards, each containing a thumbnail, title, description, and rating:
+- **Video Cards:** Each video card shows a thumbnail image with a centered play button overlay. Below the thumbnail, the video title and description are displayed. 
+- **Ratings and Duration:** A row at the bottom of each card displays the video rating (using star icons) and the video duration.
+
+### Footer Section
+
+The footer is consistent with the homepage, including:
+- **Background**: The footer has a `bg-cyprus` background color with white text.
+- **Logo and Smiley Icon**: Displayed on the left side, or centered on smaller screens.
+- **Social Media Links**: Icons for Facebook, Twitter, and Instagram on the right side, or centered on smaller screens.
+- **Copyright Text**: Centered at the bottom with reduced opacity for subtlety.
+
+
