@@ -9,6 +9,7 @@ This project included three web pages implemented with Bootstrap. HTML/CSS/Acces
 
 **This additional page, `love.html` provided a creative outlet to apply what was learned, resulting in additional practice and an enjoyable project.**
 
+**You can view the deployed project here: [Pug Smile School](https://thatsvie.github.io/atlas-smiling-school/)**
 ## Homepage
 
 ### Header Section
