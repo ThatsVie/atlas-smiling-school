@@ -11,6 +11,7 @@
     --color-cyprus: #071629;
     --color-black: #000000;
     --color-red: #DC143C;
+    --color-lightred: #FF474C;
 }
 
 /* General Styles */
@@ -37,6 +38,10 @@ body {
 
 .bg-red {
     background-color: var(--color-red);
+}
+
+.bg-lightred {
+    background-color: var(--color-lightred);
 }
 
 /* Text Colors */
@@ -106,6 +111,9 @@ body {
     background-color: var(--color-light-purple) !important;
 }
 
+.form-controlLove:hover, .form-controlLove:focus, .form-controlLove:active {
+    background-color: var(--color-lightred) !important;
+}
 /* Placeholder */
 ::placeholder {
     color: var(--color-white) !important;
@@ -143,6 +151,42 @@ body {
 }
 
 select.form-control option {
+    color: var(--color-cyprus);
+    background-color: var(--color-white);
+}
+
+.select-wrapperLove {
+    position: relative;
+    width: 100%;
+}
+
+.select-wrapperLove select.form-controlLove {
+    padding-right: 40px;
+    position: relative;
+    color: var(--color-white);
+    background-image: none; /* Remove default arrow */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 100%; 
+}
+
+.select-wrapperLove::after {
+    content: '▼';
+    font-size: 16px;
+    color: var(--color-white);
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    pointer-events: none;
+    transform: translateY(-50%);
+}
+
+.select-wrapperLove select.form-controlLove:hover {
+    cursor: pointer;
+}
+
+select.form-controlLove option {
     color: var(--color-cyprus);
     background-color: var(--color-white);
 }
