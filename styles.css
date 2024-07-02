@@ -58,6 +58,11 @@ body {
     box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.50);
 }
 
+.btn-red {
+    background-color: var(--color-red);
+    box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.50);
+}
+
 .btn:hover, .btn:focus {
     opacity: 0.9;
 }
@@ -92,7 +97,7 @@ body {
     color: var(--color-purple) !important;
 }
 
-.nav-linkP:hover, .nav-linkP:focus {
+.nav-linkLove:hover, .nav-linkLove:focus {
     color: var(--color-red) !important;
 }
 
@@ -163,6 +168,9 @@ select.form-control option {
         background-position: center top;
         background-size: 100vw;
     }
+    .romanceText {
+        font-size: 24px;
+    }
 }
 
 @media screen and (max-width: 767px) {
@@ -172,5 +180,9 @@ select.form-control option {
 
     .display-1 {
         font-size: 5rem;
+    }
+
+    .romanceText {
+        font-size: 32px;
     }
 }
