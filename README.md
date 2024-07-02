@@ -6,6 +6,9 @@ This project included three web pages implemented with Bootstrap. HTML/CSS/Acces
 - [Pricing Page Figma File](https://www.figma.com/design/QQmdkH49hKJuJ6244fBXzH/Pricing?node-id=0-1&t=ATtwuwpEqWUtGF9B-0)
 - [Courses Page Figma File](https://www.figma.com/design/zKRy0vMRBjwHaKBn1WnavS/Courses?node-id=0-1&t=n0UjYPupBYiuFTX3-0)
 
+
+**This additional page, `love.html` provided a creative outlet to apply what was learned, resulting in additional practice and an enjoyable project.**
+
 ## Homepage
 
 ### Header Section
@@ -138,4 +141,58 @@ The footer is consistent with the homepage, including:
 - **Social Media Links**: Icons for Facebook, Twitter, and Instagram on the right side, or centered on smaller screens.
 - **Copyright Text**: Centered at the bottom with reduced opacity for subtlety.
 
+## Love Page
+
+### Header Section
+
+The header section of the Love page includes:
+- **Logo Section**: Displays the Smileschool logo along with a smiley face icon.
+- **Navigation Bar**: Contains links to "Courses," "Pricing," and "Love."
+
+### Hero Section
+
+The hero section includes:
+- **Hero Content**: Features a prominent heading "A pug's love is like no other." and emphasizes the unique bond between pugs and their owners.
+
+### Main Content
+
+The main content section includes:
+- **Adopt/Foster Buttons**: Provides options for users to adopt or foster a pug with links to an external site.
+- **Titles**: Highlights themes of "Love" and "Care" with corresponding descriptions.
+- **Features**: Lists features such as "24/7 Pug Helpline," "Access to Pug Lovers Forum," "Invitations to Pug Playdates," and "Receive Pug Care Packages," each with heart icons.
+- **Pug Merchandise**: Details exclusive discounts on pug merchandise with a paw print logo.
+
+### Carousel Section
+
+The carousel section showcases images of pugs in various settings, using the Bootstrap Carousel component.
+
+### Testimonials Section
+
+The testimonials section includes quotes and images from pug owners, highlighting the joy and love their pugs have brought into their lives.
+
+### Pug Facts
+
+The Pug Facts section includes interesting facts about pugs, displayed in visually appealing fact boxes.
+
+### Photo Gallery
+
+The photo gallery showcases images of pugs in various activities and settings, presented in a grid format.
+
+### Love Stories
+
+The Love Stories section features stories of pug owners and their pugs, presented in a card format with images and descriptions.
+
+### Pug Love Stories Form
+
+This section invites users to share their own pug love stories through a submission form.
+
+### Footer Section
+
+The footer is consistent with other pages, including:
+- **Background**: The footer has a `bg-black` background color with white text.
+- **Logo and Smiley Icon**: Displayed on the left side, or centered on smaller screens.
+- **Social Media Links**: Icons for Facebook, Twitter, and Instagram on the right side, or centered on smaller screens.
+- **Copyright Text**: Centered at the bottom with reduced opacity for subtlety.
+
+This additional page allowed for further exploration of Bootstrap components and provided an enjoyable creative outlet to apply what was learned in a fun and engaging way. The Love page celebrates the unique bond between pugs and their owners, offering a variety of pug-related content and interactive elements.
 
