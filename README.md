@@ -194,5 +194,5 @@ The footer is consistent with other pages, including:
 - **Social Media Links**: Icons for Facebook, Twitter, and Instagram on the right side, or centered on smaller screens.
 - **Copyright Text**: Centered at the bottom with reduced opacity for subtlety.
 
-This additional page allowed for further exploration of Bootstrap components and provided an enjoyable creative outlet to apply what was learned in a fun and engaging way. The Love page celebrates the unique bond between pugs and their owners, offering a variety of pug-related content and interactive elements.
+**This additional page allowed for further exploration of Bootstrap components and provided an enjoyable creative outlet to apply what was learned in a fun and engaging way. The Love page celebrates the unique bond between pugs and their owners, offering a variety of pug-related content and interactive elements.**
 
