@@ -15,8 +15,9 @@ This project included three web pages implemented with Bootstrap. HTML/CSS/Acces
 ### Header Section
 
 The header section includes the following elements:
-- **Logo Section**: Displays the Smileschool logo along with a smiley face icon.
+- **Logo Section**: Displays the Smileschool logo along with a smiley face icon. The logo section is wrapped in an anchor tag, allowing users to navigate back to the homepage by clicking on the logo.
 - **Navigation Bar**: Contains links to different sections of the site, including "Courses," "Pricing," and "Love."
+
 
 ### Hero Section
 
@@ -76,7 +77,7 @@ The footer of the Pug Smile School website includes:
 ### Header
 
 The header of the pricing page includes:
-- **Logo Section**: Displays the Smileschool logo along with a smiley face icon, aligned to match the header on the homepage.
+- **Logo Section**: Displays the Smileschool logo along with a smiley face icon, aligned to match the header on the homepage. The logo section is wrapped in an anchor tag, allowing users to navigate back to the homepage by clicking on the logo.
 - **Navigation Bar**: Contains links to "Courses," "Pricing," and "Love."
 
 ### Hero Section
@@ -118,7 +119,7 @@ The footer is consistent with the homepage, including:
 ### Header/Hero Section
 
 The header/hero section of the Courses page includes:
-- **Logo and Navigation:** Displays the Smileschool logo along with navigation links to the 'Courses,' 'Pricing,' and 'Love' pages. On smaller screens, a burger menu is used for navigation.
+- **Logo and Navigation:** Displays the Smileschool logo along with navigation links to the 'Courses,' 'Pricing,' and 'Love' pages. On smaller screens, a burger menu is used for navigation. The logo section is wrapped in an anchor tag, allowing users to navigate back to the homepage by clicking on the logo.
 - **Inspirational Quote:** Features an inspirational quote "« Don't cry because it's over. Smile because it happened. »" displayed prominently in the center, using the 'Coiny' font for emphasis.
 
 ### Search Filters
@@ -147,7 +148,7 @@ The footer is consistent with the homepage, including:
 ### Header Section
 
 The header section of the Love page includes:
-- **Logo Section**: Displays the Smileschool logo along with a smiley face icon.
+- **Logo Section**: Displays the Smileschool logo along with a smiley face icon. The logo section is wrapped in an anchor tag, allowing users to navigate back to the homepage by clicking on the logo.
 - **Navigation Bar**: Contains links to "Courses," "Pricing," and "Love."
 
 ### Hero Section
