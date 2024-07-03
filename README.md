@@ -10,6 +10,14 @@ This project included three web pages implemented with Bootstrap. HTML/CSS/Acces
 This additional page, `love.html` provided a creative outlet to apply what was learned, resulting in additional practice and an enjoyable project.
 
 **You can view the deployed project here: [Pug Smile School](https://thatsvie.github.io/atlas-smiling-school/)**
+
+## Technologies Used
+
+- **HTML5**: For structuring the content.
+- **CSS3**: For styling the webpage, including custom styles and Bootstrap integration.
+- **Bootstrap 4.4.1**: For responsive design and components like the navbar and carousel.
+- **Google Fonts**: To enhance the typography with fonts like Source Sans Pro and Coiny.
+
 ## Homepage `index.html`
 
 ### Header Section
@@ -197,18 +205,3 @@ The footer is consistent with other pages, including:
 - **Copyright Text**: Centered at the bottom with reduced opacity for subtlety.
 
 **This additional page allowed for further exploration of Bootstrap components and provided an enjoyable creative outlet to apply what was learned in a fun and engaging way. The Love page celebrates the unique bond between pugs and their owners, offering a variety of pug-related content and interactive elements.**
-
-
-### Technologies Used
-
-- **HTML5**: For structuring the content.
-- **CSS3**: For styling the webpage, including custom styles and Bootstrap integration.
-- **Bootstrap 4.4.1**: For responsive design and components like the navbar and carousel.
-- **Google Fonts**: To enhance the typography with fonts like Source Sans Pro and Coiny.
-
-
-
-### Additionally
-
-- The images used in the project are stored in the `images` and `puggies` directories.
-- Custom styles are defined in the `styles.css` file and are imported into the `homepage.html` file.
