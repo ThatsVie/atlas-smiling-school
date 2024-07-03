@@ -57,6 +57,10 @@ body {
     color: var(--color-red);
 }
 
+.text-muted-custom {
+    color: rgba(7, 22, 41, 0.50);
+    font-size: 14px;
+}
 /* Buttons */
 .btn {
     background-color: var(--color-purple);
