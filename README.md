@@ -7,7 +7,7 @@ This project included three web pages implemented with Bootstrap. HTML/CSS/Acces
 - [Courses Page Figma File](https://www.figma.com/design/zKRy0vMRBjwHaKBn1WnavS/Courses?node-id=0-1&t=n0UjYPupBYiuFTX3-0)
 
 
-**This additional page, `love.html` provided a creative outlet to apply what was learned, resulting in additional practice and an enjoyable project.**
+This additional page, `love.html` provided a creative outlet to apply what was learned, resulting in additional practice and an enjoyable project.
 
 **You can view the deployed project here: [Pug Smile School](https://thatsvie.github.io/atlas-smiling-school/)**
 ## Homepage `index.html`
@@ -159,7 +159,7 @@ The hero section includes:
 ### Main Content
 
 The main content section includes:
-- **Adopt/Foster Buttons**: Provides options for users to adopt or foster a pug with links to an external site.
+- **Adopt/Foster Buttons**: Provides options for users to adopt or foster a pug with links .
 - **Titles**: Highlights themes of "Love" and "Care" with corresponding descriptions.
 - **Features**: Lists features such as "24/7 Pug Helpline," "Access to Pug Lovers Forum," "Invitations to Pug Playdates," and "Receive Pug Care Packages," each with heart icons.
 - **Pug Merchandise**: Details exclusive discounts on pug merchandise with a paw print logo.
@@ -198,3 +198,17 @@ The footer is consistent with other pages, including:
 
 **This additional page allowed for further exploration of Bootstrap components and provided an enjoyable creative outlet to apply what was learned in a fun and engaging way. The Love page celebrates the unique bond between pugs and their owners, offering a variety of pug-related content and interactive elements.**
 
+
+### Technologies Used
+
+- **HTML5**: For structuring the content.
+- **CSS3**: For styling the webpage, including custom styles and Bootstrap integration.
+- **Bootstrap 4.4.1**: For responsive design and components like the navbar and carousel.
+- **Google Fonts**: To enhance the typography with fonts like Source Sans Pro and Coiny.
+
+
+
+### Additionally
+
+- The images used in the project are stored in the `images` and `puggies` directories.
+- Custom styles are defined in the `styles.css` file and are imported into the `homepage.html` file.
