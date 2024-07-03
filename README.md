@@ -10,7 +10,7 @@ This project included three web pages implemented with Bootstrap. HTML/CSS/Acces
 **This additional page, `love.html` provided a creative outlet to apply what was learned, resulting in additional practice and an enjoyable project.**
 
 **You can view the deployed project here: [Pug Smile School](https://thatsvie.github.io/atlas-smiling-school/)**
-## Homepage
+## Homepage `index.html`
 
 ### Header Section
 
@@ -71,7 +71,7 @@ The footer of the Pug Smile School website includes:
 - **Social Media Links**: Icons for Facebook, Twitter, and Instagram on the right side, or centered on smaller screens.
 - **Copyright Text**: Centered at the bottom with reduced opacity for subtlety.
 
-## Pricing Page
+## Pricing Page `pricing.html`
 
 ### Header
 
@@ -113,7 +113,7 @@ The footer is consistent with the homepage, including:
 - **Social Media Links**: Icons for Facebook, Twitter, and Instagram on the right side, or centered on smaller screens.
 - **Copyright Text**: Centered at the bottom with reduced opacity for subtlety.
 
-## Courses Page
+## Courses Page `courses.html`
 
 ### Header/Hero Section
 
@@ -142,7 +142,7 @@ The footer is consistent with the homepage, including:
 - **Social Media Links**: Icons for Facebook, Twitter, and Instagram on the right side, or centered on smaller screens.
 - **Copyright Text**: Centered at the bottom with reduced opacity for subtlety.
 
-## Love Page
+## Love Page `love.html`
 
 ### Header Section
 
