@@ -159,7 +159,7 @@ The hero section includes:
 ### Main Content
 
 The main content section includes:
-- **Adopt/Foster Buttons**: Provides options for users to adopt or foster a pug with links .
+- **Adopt/Foster Buttons**: Provides options for users to adopt or foster a pug.  When clicked, they link to [Homeward Bound Pug Rescue](https://homewardboundpugs.com/), directing users to a dedicated page for adopting or fostering pugs.
 - **Titles**: Highlights themes of "Love" and "Care" with corresponding descriptions.
 - **Features**: Lists features such as "24/7 Pug Helpline," "Access to Pug Lovers Forum," "Invitations to Pug Playdates," and "Receive Pug Care Packages," each with heart icons.
 - **Pug Merchandise**: Details exclusive discounts on pug merchandise with a paw print logo.
