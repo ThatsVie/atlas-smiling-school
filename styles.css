@@ -62,6 +62,10 @@ body {
     font-size: 14px;
 }
 
+.text-muted-custom2 {
+    color: rgba(7, 22, 41, 0.30);
+}
+
 /*Font sizes*/
 .font-size-12 {
     font-size: 12px;
@@ -81,6 +85,10 @@ body {
 
 .font-size-22 {
     font-size: 22px;
+}
+
+.font-size-23 {
+    font-size:23px;
 }
 .font-size-32 {
     font-size: 32px;
@@ -152,6 +160,7 @@ body {
 ::placeholder {
     color: var(--color-white) !important;
     opacity: .5 !important;
+
 }
 
 /* Select Wrapper */
@@ -250,15 +259,26 @@ select.form-controlLove option {
     height: 30px;
 }
 
-/*play button*/
+/*Pugster Massey*/
 .img-size-30 {
     height: 30px;
     width: 30px;
 }
-
+/* play button centering*/
 .play-button-style {
     width: 35%;
     padding-top: 15%;
+}
+
+/*search icon*/
+.search-icon {
+    width: 20px;
+}
+ 
+/* footer pug smile school p tag*/
+.footer-opacity {
+    opacity: 0.3517;
+    margin-top: 2rem;
 }
 
 
