@@ -302,6 +302,13 @@ select.form-controlLove option {
     height: 70px;
 }
 
+/*free membership smiley*/
+.smiley-icon {
+    height: 36px;
+    width: 45px;
+}
+
+
 /* Responsive Adjustments */
 @media screen and (max-width: 575px) {
     .bg-home {
