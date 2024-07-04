@@ -61,6 +61,36 @@ body {
     color: rgba(7, 22, 41, 0.50);
     font-size: 14px;
 }
+
+/*Font sizes*/
+.font-size-12 {
+    font-size: 12px;
+}
+
+.font-size-14 {
+    font-size: 14px;
+}
+
+.font-size-16 {
+    font-size: 16px;
+}
+
+.font-size-18 {
+    font-size: 18px;
+}
+
+.font-size-22 {
+    font-size: 22px;
+}
+.font-size-32 {
+    font-size: 32px;
+}
+
+.font-size-120 {
+    font-size: 120px;
+}
+
+
 /* Buttons */
 .btn {
     background-color: var(--color-purple);
@@ -214,6 +244,21 @@ select.form-controlLove option {
 .star-img {
     width: 15px;
     height: 15px;
+}
+/*logo*/
+.img-height-30 {
+    height: 30px;
+}
+
+/*play button*/
+.img-size-30 {
+    height: 30px;
+    width: 30px;
+}
+
+.play-button-style {
+    width: 35%;
+    padding-top: 15%;
 }
 
 
