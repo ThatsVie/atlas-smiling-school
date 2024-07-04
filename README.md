@@ -11,15 +11,16 @@ This additional page, `love.html` provided a creative outlet to apply what was l
 
 **You can view the deployed project here: [Pug Smile School](https://thatsvie.github.io/atlas-smiling-school/)**
 
+## What is Bootstrap
+Bootstrap is a popular open-source front-end framework used for developing responsive and mobile-first websites and web applications. It provides a collection of CSS and JavaScript-based design templates for typography, forms, buttons, navigation, and other interface components. Bootstrap simplifies the process of designing web pages by offering a grid system, pre-styled components, and JavaScript plugins, allowing developers to create visually appealing and functional layouts with minimal effort. Its responsive design capabilities ensure that web pages look and perform well on various devices, from desktops to smartphones. Bootstrap is widely used because it speeds up development, ensures consistency across different browsers, and offers a wealth of customization options.
+
 ## Technologies Used
 
 - **HTML5**: For structuring the content.
 - **CSS3**: For styling the webpage, including custom styles and Bootstrap integration.
 - **Bootstrap 4.4.1**: For responsive design and components like the navbar and carousel.
 - **Google Fonts**: To enhance the typography with fonts like Source Sans Pro and Coiny.
-- 
-## What is Bootstrap
-Bootstrap is a popular open-source front-end framework used for developing responsive and mobile-first websites and web applications. It provides a collection of CSS and JavaScript-based design templates for typography, forms, buttons, navigation, and other interface components. Bootstrap simplifies the process of designing web pages by offering a grid system, pre-styled components, and JavaScript plugins, allowing developers to create visually appealing and functional layouts with minimal effort. Its responsive design capabilities ensure that web pages look and perform well on various devices, from desktops to smartphones. Bootstrap is widely used because it speeds up development, ensures consistency across different browsers, and offers a wealth of customization options.
+
 
 ## Homepage `index.html`
 
