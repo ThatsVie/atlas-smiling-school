@@ -16,11 +16,13 @@ Bootstrap is a popular open-source front-end framework used for developing respo
 
 ## Technologies Used
 
-- **HTML5**: For structuring the content.
-- **CSS3**: For styling the webpage, including custom styles and Bootstrap integration.
-- **Bootstrap 4.4.1**: For responsive design and components like the navbar and carousel.
-- **Google Fonts**: To enhance the typography with fonts like Source Sans Pro and Coiny.
-
+- **HTML5**: For structuring the content of the web pages.
+- **CSS3**: For styling the web pages, including custom styles and integrating Bootstrap to ensure a consistent design.
+- **Bootstrap 4.4.1**: For creating a responsive design and utilizing components such as the navbar, carousel, buttons, forms, and grid system.
+- **Google Fonts**: To enhance typography using fonts like Source Sans Pro and Coiny.
+- **JavaScript**: For interactive elements and functionalities, such as the Bootstrap Carousel and navigation.
+- **jQuery**: To simplify JavaScript tasks and enhance the dynamic behavior of the web pages.
+- **Figma**: For the initial design and layout of the web pages, providing a visual guide for the implementation.
 
 ## Homepage `index.html`
 
