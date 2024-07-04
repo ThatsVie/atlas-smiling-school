@@ -23,45 +23,44 @@ body {
 .bg-purple {
     background-color: var(--color-purple);
 }
-
 .bg-cyprus {
     background-color: var(--color-cyprus);
 }
-
 .bg-lightpurple {
     background-color: var(--color-light-purple);
 }
-
 .bg-black {
     background-color: var(--color-black);
 }
-
 .bg-red {
     background-color: var(--color-red);
 }
-
 .bg-lightred {
     background-color: var(--color-lightred);
+}
+
+/* Custom Text */
+.dontCryText {
+    font-family: var(--font-family-secondary) !important;
+}
+.romanceText {
+    font-family: var(--font-family-3);
 }
 
 /* Text Colors */
 .text-highlight {
     color: var(--color-purple);
 }
-
 .text-cyprus {
     color: var(--color-cyprus);
 }
-
 .text-red {
     color: var(--color-red);
 }
-
 .text-muted-custom {
     color: rgba(7, 22, 41, 0.50);
     font-size: 14px;
 }
-
 .text-muted-custom2 {
     color: rgba(7, 22, 41, 0.30);
 }
@@ -70,39 +69,41 @@ body {
 .font-size-12 {
     font-size: 12px;
 }
-
 .font-size-14 {
     font-size: 14px;
 }
-
 .font-size-16 {
     font-size: 16px;
 }
-
 .font-size-18 {
     font-size: 18px;
 }
-
 .font-size-22 {
     font-size: 22px;
 }
-
 .font-size-23 {
     font-size:23px;
 }
 .font-size-32 {
     font-size: 32px;
 }
-
+.font-size-44 {
+    font-size: 44px;
+}
+.font-size-60 {
+    font-size: 60px;
+}
 .font-size-120 {
     font-size: 120px;
 }
-
 
 /* Buttons */
 .btn {
     background-color: var(--color-purple);
     box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.50);
+    width: 162px;
+    height: 44px;
+    font-size: 14px;
 }
 
 .btn-red {
@@ -234,14 +235,6 @@ select.form-controlLove option {
     background-color: var(--color-white);
 }
 
-/* Custom Text */
-.dontCryText {
-    font-family: var(--font-family-secondary) !important;
-}
-
-.romanceText {
-    font-family: var(--font-family-3);
-}
 
 /* Control Arrow */
 .control-arrow {
@@ -254,6 +247,7 @@ select.form-controlLove option {
     width: 15px;
     height: 15px;
 }
+
 /*logo*/
 .img-height-30 {
     height: 30px;
@@ -264,6 +258,7 @@ select.form-controlLove option {
     height: 30px;
     width: 30px;
 }
+
 /* play button centering*/
 .play-button-style {
     width: 35%;
@@ -281,6 +276,31 @@ select.form-controlLove option {
     margin-top: 2rem;
 }
 
+/*price in grid */
+.price-text {
+    min-width: fit-content;
+}
+
+.price-subtext {
+    font-size: 12px;
+    min-width: fit-content;
+    opacity: 0.503;
+}
+
+/*grid line*/
+.custom-hr {
+    border-top: 1px solid #FFF;
+    opacity: 0.2003;
+}
+
+/* for pricing page- what is smile shool*/
+.img-smiley {
+    height: 35px;
+}
+
+.img-logo {
+    height: 70px;
+}
 
 /* Responsive Adjustments */
 @media screen and (max-width: 575px) {
