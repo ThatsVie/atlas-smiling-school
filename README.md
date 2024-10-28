@@ -1,5 +1,8 @@
 
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/58a03b80-fb8f-430f-bd96-a4effac4f969" alt="Screenshot 2024-10-28 141411" width="300">
+</p>
 
 <h1 align="center">Pug Smile School</h1>
 
