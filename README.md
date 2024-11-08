@@ -143,7 +143,7 @@ Creating a visually cohesive and accessible layout based on Figma designs requir
 
 ## About the Developer
 
-Hey, I'm Vie Paula, a front-end developer passionate about creating enjoyable, user-centered experiences. My love for pugs inspired me to make this fun and engaging project. Check out my other work in my [Portfolio](https://github.com/ThatsVie).
+Hi! I'm Vie P, a software engineer passionate about creating enjoyable, user-centered experiences. My love for pugs inspired me to make this fun and engaging project. Check out my other work in my [Portfolio](https://github.com/ThatsVie).
 
 **Thank you for visiting Pug Smile School! I hope you enjoy exploring this pug-inspired platform.**
 
